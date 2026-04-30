@@ -19,7 +19,7 @@ export const BOOKS_DATA = [
     genre: "Cozy Mystery",
     year: "2025",
     img: "https://images.unsplash.com/photo-1594631252845-29fc458695d7?auto=format&fit=crop&q=80&w=800",
-    synopsis: "A century-old mystery steeped in family legends resurfaces when Eleanor inherits her grandmother's teashop. Hidden beneath the floorboards, a diary suggests the village's most famous resident didn't die of natural causes.",
+    synopsis: "A century-old mystery steeped in family legends resurfaces when Briar inherits her grandmother's teashop. Hidden beneath the floorboards, a diary suggests the village's most famous resident didn't die of natural causes.",
     purchaseUrl: "#",
     reviews: [
       { author: "Sarah W.", rating: 5, text: "The perfect weekend read. I could practically smell the Earl Grey!" },
@@ -41,11 +41,11 @@ export const BOOKS_DATA = [
 
 export const ABOUT_CONTENT = {
   quote: "Every book is a room where the door is always unlocked, and the fire is always lit.",
-  shortBio: "Eleanor Penhaligon writes from a sun-drenched attic in the Cotswolds, where she lives with two demanding cats and an ever-growing collection of vintage teapots. Her stories are crafted for those who find solace in small mysteries and warm endings.",
+  shortBio: "Briar Lux writes from a sun-drenched attic in the Cotswolds, where she lives with two demanding cats and an ever-growing collection of vintage teapots. Her stories are crafted for those who find solace in small mysteries and warm endings.",
   fullStory: [
-    "Eleanor Penhaligon never intended to be a writer of mysteries. Her first career was in the archives of a dusty university library, where she developed a penchant for uncovering things that were meant to stay hidden.",
+    "Briar Lux never intended to be a writer of mysteries. Her first career was in the archives of a dusty university library, where she developed a penchant for uncovering things that were meant to stay hidden.",
     "It was only after inheriting her grandmother's cottage in Oakhaven that she realized the true stories aren't found in books, but in the people who read them. The village, with its winding lanes and whispered legends, became the heartbeat of her work.",
-    "When she isn't drafting her next Thistlewood mystery, Eleanor can be found tending to her unruly lavender garden, scouring antique markets for heavy brass keys, or negotiating with her two ginger cats, Barnaby and Blue.",
+    "When she isn't drafting her next Thistlewood mystery, Briar can be found tending to her unruly lavender garden, scouring antique markets for heavy brass keys, or negotiating with her two ginger cats, Barnaby and Blue.",
     "Her mission is simple: to create worlds where the stake is never the world ending, but rather the restoration of a village's peace."
   ],
   quoteLarge: "I find that most problems can be solved with a very deep breath and a very hot teapot. Writing is just my way of sharing that calm with the world.",

@@ -49,7 +49,7 @@ export default function App() {
             onClick={() => navigateTo('home')}
             className="text-4xl md:text-5xl font-serif font-light tracking-tighter italic hover:opacity-70 transition-opacity text-left bg-transparent border-none cursor-pointer p-0"
           >
-            Eleanor Penhaligon
+            Briar Lux
           </button>
           
           <div className="hidden md:flex gap-10 font-sans text-xs uppercase tracking-[0.2em] font-medium">
@@ -291,7 +291,7 @@ export default function App() {
                               <p className="font-serif italic text-charcoal/60 leading-relaxed mb-8 flex-grow">"{post.excerpt}"</p>
                               <div className="flex flex-col mt-auto pt-6 border-t border-charcoal/5 gap-4">
                                  <div className="flex items-center justify-between">
-                                    <span className="text-[10px] font-sans uppercase tracking-[0.1em] opacity-30 italic">By Eleanor P.</span>
+                                    <span className="text-[10px] font-sans uppercase tracking-[0.1em] opacity-30 italic">By Briar L.</span>
                                     <button className="font-sans text-[10px] uppercase tracking-widest underline underline-offset-8 hover:text-terracotta transition-colors bg-transparent border-none cursor-pointer">Read Entry</button>
                                  </div>
                                  <div className="flex items-center justify-end gap-4 border-t border-charcoal/5 pt-4">
@@ -505,7 +505,7 @@ export default function App() {
       <footer className="py-16 border-t border-charcoal/10 px-10">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-12 text-[10px] font-sans uppercase tracking-[0.3em] opacity-40">
           <div className="text-center md:text-left">
-            <span className="block mb-2 font-bold text-terracotta opacity-100">© 2026 Eleanor Penhaligon Fiction</span>
+            <span className="block mb-2 font-bold text-terracotta opacity-100">© 2026 Briar Lux Fiction</span>
             <a href="#" className="hover:line-through decoration-terracotta transition-all flex items-center gap-2 justify-center md:justify-start">
                Represented by Ink & Quill Agency <ExternalLink className="w-3 h-3" />
             </a>

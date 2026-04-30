@@ -4,7 +4,7 @@ export const BOOKS: Book[] = [
   {
     id: '1',
     title: "The Kettle's Secret",
-    description: "In the quiet village of Oakhaven, a century-old mystery steeped in family legends resurfaces. When Eleanor inherits her grandmother's teashop, she finds more than just loose leaf tea—she finds a diary hidden beneath the floorboards that suggests the village's most famous resident didn't die of natural causes.",
+    description: "In the quiet village of Oakhaven, a century-old mystery steeped in family legends resurfaces. When Briar inherits her grandmother's teashop, she finds more than just loose leaf tea—she finds a diary hidden beneath the floorboards that suggests the village's most famous resident didn't die of natural causes.",
     coverImage: "https://images.unsplash.com/photo-1594631252845-29fc458695d7?auto=format&fit=crop&q=80&w=800",
     genre: "Cozy Mystery",
     releaseDate: "Oct 2025",
