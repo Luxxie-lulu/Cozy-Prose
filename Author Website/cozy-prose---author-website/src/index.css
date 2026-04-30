@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-charcoal: #2D2926;
+  --color-parchment: #FDFBF7;
+  --color-terracotta: #C26D5C;
+  --color-paper-tan: #EAE1D4;
+  --color-paper-sage: #D1D9D0;
+  --color-paper-cream: #E9DFCF;
+}
+
+@layer base {
+  body {
+    @apply bg-parchment text-charcoal font-serif antialiased;
+  }
+}
+
+.shadow-artistic {
+  box-shadow: 12px 12px 0px #C26D5C;
+}
+
+.markdown-body {
+  @apply prose prose-stone max-w-none prose-headings:font-serif prose-p:font-serif;
+}
